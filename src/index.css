@@ -11,6 +11,12 @@ body {
   border-right: 0;
   border-top: 0;
 }
+.border-gradient-box {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #f05225, #eea820) 1;
+  border-radius: 20px;
+}
 
 @tailwind base;
 @tailwind components;

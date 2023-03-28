@@ -35,14 +35,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center justify-between px-10 gap-x-5">
           {/* search */}
-          <div
-            style={{
-              borderImage: "linear-gradient(to right, #f05225, #eea820) 1",
-              borderRadius: "20px",
-              border: 2px solid;
-            }}
-            className="text-lg relative px-3 py-1 rounded-lg w-[50%] border-white flex items-center justify-between"
-          >
+          <div className="border-gradient-box text-lg relative px-3 py-1 w-[50%] flex items-center justify-between">
             <div>
               <input
                 type="text"
