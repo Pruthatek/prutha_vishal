@@ -4,11 +4,11 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <> 
-    <Navbar />
+    <div>
+      <Navbar />
       <Home />
       {/* <Dropdown/> */}
-    </>
+    </div>
   );
 }
 

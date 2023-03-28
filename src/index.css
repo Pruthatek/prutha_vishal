@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   background: #000000;
-  color:#ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.border-gradient:hover {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.border-gradient-orange:hover {
+  border-image-source: linear-gradient(to right, #f05225, #eea820);
+  transition-duration: 3s, 1s;
 }
 
 @tailwind base;
