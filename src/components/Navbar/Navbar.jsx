@@ -38,6 +38,8 @@ const Navbar = () => {
           <div
             style={{
               borderImage: "linear-gradient(to right, #f05225, #eea820) 1",
+              borderRadius: "20px",
+              border: 2px solid;
             }}
             className="text-lg relative border-[1px] px-3 py-1 rounded-lg w-[50%] border-white flex items-center justify-between"
           >
