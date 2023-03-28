@@ -14,28 +14,33 @@ const Navbar = () => {
         <div>
           <ul className="flex items-center w-full justify-between px-20 gap-x-5">
             <li
-              className="border-gradient border-gradient-orange text-subtitle cursor-pointer"
+              className="border-gradient-orange text-subtitle cursor-pointer"
               // onClick={document.getElementById('dropdown').classList.remove('hidden')}
             >
               What is our role?
             </li>
-            <li className="border-gradient border-gradient-orange text-subtitle cursor-pointer">
+            <li className="border-gradient-orange text-subtitle cursor-pointer">
               What defines us?
             </li>
-            <li className="border-gradient border-gradient-orange text-subtitle cursor-pointer">
+            <li className="border-gradient-orange text-subtitle cursor-pointer">
               Careers
             </li>
-            <li className="border-gradient border-gradient-orange text-subtitle cursor-pointer">
+            <li className="border-gradient-orange text-subtitle cursor-pointer">
               Blogs
             </li>
-            <li className="border-gradient border-gradient-orange text-subtitle cursor-pointer">
+            <li className="border-gradient-orange text-subtitle cursor-pointer">
               Case Studies
             </li>
           </ul>
         </div>
         <div className="flex items-center justify-between px-10 gap-x-5">
           {/* search */}
-          <div className="text-lg relative border-[1px] px-3 py-1 rounded-lg w-[50%] border-white flex items-center justify-between">
+          <div
+            style={{
+              borderImage: "linear-gradient(to right, #f05225, #eea820) 1",
+            }}
+            className="text-lg relative border-[1px] px-3 py-1 rounded-lg w-[50%] border-white flex items-center justify-between"
+          >
             <div>
               <input
                 type="text"
@@ -94,7 +99,7 @@ const Navbar = () => {
           </div>
           {/* Contact */}
           <div>
-            <p className="border-gradient border-gradient-orange text-subtitle cursor-pointer">
+            <p className="border-gradient-orange text-subtitle cursor-pointer">
               Contact Us
             </p>
           </div>
