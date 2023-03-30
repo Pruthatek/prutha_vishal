@@ -1,6 +1,5 @@
 import React from "react";
 import { MdOutlineLanguage } from "react-icons/md";
-import DropdownMenu from "./Dropdown.jsx";
 
 const Navbar = () => {
   return (
@@ -8,23 +7,23 @@ const Navbar = () => {
       {/* subCategoryDropdown */}
       <div
         id="subCategoryDropdown"
-        className="absolute top-8 pt-10 px-20 w-full transition-all duration-300 scale-y-0 opacity-0 origin-top shadow-xl rounded-lg overflow-hidden"
+        className="absolute top-10 pt-5 px-20 w-full transition-all duration-300 scale-y-0 opacity-0 origin-top shadow-xl rounded-lg overflow-hidden"
       >
-        <div className="bg-white/70 backdrop-blur w-full py-10 flex flex-row items-center justify-center gap-x-10 rounded-lg">
+        <div className="bg-black/30 backdrop-blur w-full py-10 flex flex-row items-center justify-center gap-x-10 rounded-lg">
           <ul className="flex flex-col gap-y-14">
-            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+            <li className="text-gradient border-gradient-box text-xl cursor-pointer border-gradient-bottom-orange">
               Overview
             </li>
-            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+            <li className="text-gradient border-gradient-box text-xl cursor-pointer border-gradient-bottom-orange">
               Offerings & Advancements
             </li>
-            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+            <li className="text-gradient border-gradient-box text-xl cursor-pointer border-gradient-bottom-orange">
               Products
             </li>
-            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+            <li className="text-gradient border-gradient-box text-xl cursor-pointer border-gradient-bottom-orange">
               Technologies
             </li>
-            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+            <li className="text-gradient border-gradient-box text-xl cursor-pointer border-gradient-bottom-orange">
               Sectors
             </li>
           </ul>
@@ -46,7 +45,7 @@ const Navbar = () => {
           <ul className="flex items-center w-full justify-between px-20 gap-x-5">
             <li
               className="border-gradient-orange text-subtitle cursor-pointer"
-              onClick={() => {
+              onMouseEnter={() => {
                 document
                   .getElementById("subCategoryDropdown")
                   .classList.remove("scale-y-0");
@@ -54,7 +53,7 @@ const Navbar = () => {
                   .getElementById("subCategoryDropdown")
                   .classList.remove("opacity-0");
               }}
-              onMouseLeave={() => {
+              onClick={() => {
                 document
                   .getElementById("subCategoryDropdown")
                   .classList.add("scale-y-0");
@@ -81,7 +80,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center justify-between px-10 gap-x-5">
           {/* search */}
-          <div className="border-gradient-box text-lg relative px-3 py-1 w-[50%] flex items-center justify-between">
+          <div className="border-gradient-box text-lg relative px-3 py-1 w-[50%] flex items-center justify-between rounded-md">
             <div>
               <input
                 type="text"
