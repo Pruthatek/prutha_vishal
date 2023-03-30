@@ -1,10 +1,41 @@
 import React from "react";
 import { MdOutlineLanguage } from "react-icons/md";
+import DropdownMenu from "./Dropdown.jsx";
 
 const Navbar = () => {
   return (
     <div className="text-white bg-transparent">
-      <Dropdown />
+      {/* subCategoryDropdown */}
+      <div
+        id="subCategoryDropdown"
+        className="absolute top-8 pt-10 px-20 w-full transition-all duration-300 scale-y-0 opacity-0 origin-top shadow-xl rounded-lg overflow-hidden"
+      >
+        <div className="bg-white/70 backdrop-blur w-full py-10 flex flex-row items-center justify-center gap-x-10 rounded-lg">
+          <ul className="flex flex-col gap-y-14">
+            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+              Overview
+            </li>
+            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+              Offerings & Advancements
+            </li>
+            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+              Products
+            </li>
+            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+              Technologies
+            </li>
+            <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500 cursor-pointer">
+              Sectors
+            </li>
+          </ul>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              ipsum eum, a?
+            </p>
+          </div>
+        </div>
+      </div>
       <nav className="flex items-center justify-between px-10 py-5">
         {/* Nav-Logo */}
         <div className="cursor-pointer">
@@ -15,7 +46,22 @@ const Navbar = () => {
           <ul className="flex items-center w-full justify-between px-20 gap-x-5">
             <li
               className="border-gradient-orange text-subtitle cursor-pointer"
-              // onClick={document.getElementById('dropdown').classList.remove('hidden')}
+              onClick={() => {
+                document
+                  .getElementById("subCategoryDropdown")
+                  .classList.remove("scale-y-0");
+                document
+                  .getElementById("subCategoryDropdown")
+                  .classList.remove("opacity-0");
+              }}
+              onMouseLeave={() => {
+                document
+                  .getElementById("subCategoryDropdown")
+                  .classList.add("scale-y-0");
+                document
+                  .getElementById("subCategoryDropdown")
+                  .classList.add("opacity-0");
+              }}
             >
               What is our role?
             </li>
@@ -109,38 +155,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const Dropdown = () => {
-  return (
-    <div
-      className="flex bg-[#3A3A3A4D] p-20 items-center justify-between backdrop-blur-md absolute top-24 w-full hidden"
-      id="dropdown"
-    >
-      <div>
-        <ul className="flex flex-col gap-y-14">
-          <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500">
-            Overview
-          </li>
-          <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500">
-            Offerings & Advancements
-          </li>
-          <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500">
-            Products
-          </li>
-          <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500">
-            Technologies
-          </li>
-          <li className="border-b-[1px] border-[#CFCFCF] text-xl hover:border-b-orange-500 hover:text-orange-500">
-            Sectors
-          </li>
-        </ul>
-      </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          ipsum eum, a?
-        </p>
-      </div>
-    </div>
-  );
-};
