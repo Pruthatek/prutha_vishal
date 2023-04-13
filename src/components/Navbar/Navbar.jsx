@@ -38,7 +38,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between px-10 py-5">
         {/* Nav-Logo */}
         <div className="cursor-pointer">
-          <img src="./logo.png" alt="" className="w-40" />
+          <img src="./" alt="" className="w-40" />
         </div>
         {/* Nav Links */}
         <div>
@@ -53,7 +53,7 @@ const Navbar = () => {
                   .getElementById("subCategoryDropdown")
                   .classList.remove("opacity-0");
               }}
-              onClick={() => {
+              onMouseLeave={() => {
                 document
                   .getElementById("subCategoryDropdown")
                   .classList.add("scale-y-0");
