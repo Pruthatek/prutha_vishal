@@ -38,7 +38,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between px-10 py-5">
         {/* Nav-Logo */}
         <div className="cursor-pointer">
-          <img src="./" alt="" className="w-40" />
+          <img src="/img/Logo.png" alt="" className="w-40" />
         </div>
         {/* Nav Links */}
         <div>
