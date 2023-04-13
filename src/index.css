@@ -22,11 +22,25 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .border-gradient-box {
-  border-width: 2px;
+  border-width: 1.5px;
   border-style: solid;
   border-color: transparent;
   background: linear-gradient(#000, #000) padding-box,
     linear-gradient(to bottom, #f05225, #eea820) border-box;
+}
+.border-gradient-box-2 {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to bottom, #ef32d9, #3f5efb) border-box;
+}
+.border-gradient-box-3 {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to bottom, #0da1da, #5db98e) border-box;
 }
 .border-gradient-bottom-orange {
   border: 2px solid;
