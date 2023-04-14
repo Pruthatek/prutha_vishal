@@ -5,9 +5,6 @@ body {
 }
 
 .border-gradient-orange:hover {
-  /* border: 2px solid;
-  border-image: linear-gradient(to right, #f05225, #eea820) 1; */
-  /* transform-origin: left; */
   border-width: 2px;
   border-style: solid;
   border-color: transparent;

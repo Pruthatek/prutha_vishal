@@ -7,7 +7,7 @@ const HappyClient = () => {
         <h3>Happy clients Reviews</h3>
       </div>
 
-      <div className="flex flex-col px-20 lg:flex lg:flex-row items-center justify-center gap-x-6">
+      <div className="flex flex-col lg:flex lg:flex-row items-center justify-center gap-x-6">
         {/* First */}
         <div className="w-[28%] px-6 py-10 bg-[#3A3A3A4D] border-gradient-box rounded-3xl flex flex-col items-center">
           <div className="">
