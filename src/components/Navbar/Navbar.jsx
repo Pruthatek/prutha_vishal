@@ -35,6 +35,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {/* nav */}
       <nav className="flex items-center justify-between px-10 py-5">
         {/* Nav-Logo */}
         <div className="cursor-pointer">
@@ -42,7 +43,7 @@ const Navbar = () => {
         </div>
         {/* Nav Links */}
         <div>
-          <ul className="flex items-center w-full justify-between px-20 gap-x-5">
+          <ul className="flex items-center w-full justify-between gap-x-5">
             <li
               className="border-gradient-orange text-subtitle cursor-pointer"
               onMouseEnter={() => {
@@ -78,7 +79,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-between px-10 gap-x-5">
+        <div className="flex items-center justify-between gap-x-5">
           {/* search */}
           <div className="border-gradient-box text-lg relative px-3 py-1 w-[50%] flex items-center justify-between rounded-md">
             <div>
@@ -138,14 +139,22 @@ const Navbar = () => {
             </div>
           </div>
           {/* Contact */}
-          <div>
-            <p className="border-gradient-orange text-subtitle cursor-pointer">
-              Contact Us
-            </p>
-          </div>
-          {/* Language */}
-          <div>
-            <MdOutlineLanguage size={25} className="cursor-pointer" />
+          <div className="flex flex-row items-center justify-between gap-x-4 bg-gradient-to-r from-[#F05225] to-[#EEA820] rounded-lg py-1.5 px-3 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.0001 4C20.657 4 22.0001 5.34315 22.0001 7V17C22.0001 18.6569 20.657 20 19.0001 20H5.00012C3.34327 20 2.00012 18.6569 2.00012 17V7C2.00012 5.34315 3.34327 4 5.00012 4H19.0001ZM20.0001 7.328L12.6586 13.7526C12.313 14.055 11.8112 14.0802 11.4395 13.8282L11.3416 13.7526L4.00012 7.329V17C4.00012 17.5523 4.44784 18 5.00012 18H19.0001C19.5524 18 20.0001 17.5523 20.0001 17V7.328ZM18.4801 6H5.51812L12.0001 11.6712L18.4801 6Z"
+                fill="white"
+              />
+            </svg>
+            <p className="text-subtitle cursor-pointer">Get In Touch</p>
           </div>
         </div>
       </nav>
