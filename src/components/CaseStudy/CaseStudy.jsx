@@ -1,11 +1,78 @@
 import React from "react";
 
-const HappyClient = () => {
+const CaseStudy = () => {
   return (
-    <div className="flex flex-col items-center justify-center mb-12">
-      <div className="text-[22px] font-bold text-white mb-5">
-        <h3>Happy clients Reviews</h3>
+    <div class="flex flex-col items-center justify-center my-5">
+      {/* title */}
+      <div class="text-white font-bold text-[22px]">
+        <h4>Case Studies</h4>
       </div>
+      {/* description */}
+      <div class="my-5 text-white font-normal text-subtitle">
+        <svg
+          width="25"
+          height="25"
+          viewBox="0 0 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="ml-[0.4rem] mb-[-1.4rem] xl:ml-[-0.8rem] xl:mb-[-1rem]"
+        >
+          <path
+            d="M23.9727 1.77441H1.97266V23.7744"
+            stroke="url(#paint0_linear_260_22947)"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_260_22947"
+              x1="4.39863"
+              y1="7.7581"
+              x2="21.133"
+              y2="17.183"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#F05225" />
+              <stop offset="1" stop-color="#EEA820" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <p className="font-semibold text-subtitle text-center">
+          Explore how pruthatek shaped multiple businesses with creativity and
+          innovative technology
+        </p>
+
+        <svg
+          width="25"
+          height="25"
+          viewBox="0 0 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="ml-[80%] mt-[-1rem] xl:ml-[99%] xl:mt-[-1rem] md:ml-[97%]"
+        >
+          <path
+            d="M1.02728 23.8662L23.0273 23.8662L23.0273 1.86621"
+            stroke="url(#paint0_linear_260_22948)"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_260_22948"
+              x1="20.6013"
+              y1="17.8825"
+              x2="3.86698"
+              y2="8.45759"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#F05225" />
+              <stop offset="1" stop-color="#EEA820" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
       {/* Cards */}
       <div className="flex flex-col lg:flex lg:flex-row items-center justify-center gap-x-6">
         {/* First */}
@@ -141,4 +208,4 @@ const HappyClient = () => {
   );
 };
 
-export default HappyClient;
+export default CaseStudy;
