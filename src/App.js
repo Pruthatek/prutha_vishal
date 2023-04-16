@@ -1,18 +1,19 @@
-import CaseStudy from "./components/CaseStudy/CaseStudy";
+import Blogs from "./components/Blog/Blogs";
 import Footer from "./components/Footer/Footer";
-import HappyClient from "./components/HappyClient/HappyClient";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Home />
-      <HappyClient />
-      <CaseStudy />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="blogs" element={<Blogs />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

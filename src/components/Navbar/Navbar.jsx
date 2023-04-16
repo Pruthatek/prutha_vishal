@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineLanguage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -38,9 +38,9 @@ const Navbar = () => {
       {/* nav */}
       <nav className="flex items-center justify-between px-10 py-5">
         {/* Nav-Logo */}
-        <div className="cursor-pointer">
+        <Link to="/" className="cursor-pointer">
           <img src="/img/Logo.png" alt="" className="w-40" />
-        </div>
+        </Link>
         {/* Nav Links */}
         <div>
           <ul className="flex items-center w-full justify-between gap-x-5">
@@ -68,15 +68,24 @@ const Navbar = () => {
             <li className="border-gradient-orange text-subtitle cursor-pointer">
               What defines us?
             </li>
-            <li className="border-gradient-orange text-subtitle cursor-pointer">
+            <Link
+              to="/"
+              className="border-gradient-orange text-subtitle cursor-pointer"
+            >
               Careers
-            </li>
-            <li className="border-gradient-orange text-subtitle cursor-pointer">
+            </Link>
+            <Link
+              to="/blogs"
+              className="border-gradient-orange text-subtitle cursor-pointer"
+            >
               Blogs
-            </li>
-            <li className="border-gradient-orange text-subtitle cursor-pointer">
+            </Link>
+            <Link
+              to="/"
+              className="border-gradient-orange text-subtitle cursor-pointer"
+            >
               Case Studies
-            </li>
+            </Link>
           </ul>
         </div>
         <div className="flex items-center justify-between gap-x-5">
@@ -86,7 +95,7 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="pr-3 bg-transparent rounded-lg w-full outline-none"
+                className="pr-3 bg-transparent w-full outline-none"
               />
             </div>
             <div>
@@ -163,3 +172,20 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// onMouseEnter={() => {
+//   document
+//     .getElementById("subCategoryDropdown")
+//     .classList.remove("scale-y-0");
+//   document
+//     .getElementById("subCategoryDropdown")
+//     .classList.remove("opacity-0");
+// }}
+// onMouseLeave={() => {
+//   document
+//     .getElementById("subCategoryDropdown")
+//     .classList.add("scale-y-0");
+//   document
+//     .getElementById("subCategoryDropdown")
+//     .classList.add("opacity-0");
+// }}
