@@ -16,7 +16,7 @@ const HappyClient = () => {
           slidesPerView={window.innerWidth > 640 ? 3 : 1}
         >
           <SwiperSlide>
-            <div className="px-6 py-10 glassmorphism border-gradient-box rounded-3xl flex flex-col items-center">
+            <div className="px-6 py-10 bg-[#0000004D] border-gradient-box rounded-3xl flex flex-col items-center">
               <div className="">
                 <svg
                   width="20"
@@ -60,7 +60,7 @@ const HappyClient = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="px-6 py-10 glassmorphism border-gradient-box-2 rounded-3xl flex flex-col items-center">
+            <div className="px-6 py-10 bg-[#0000004D] border-gradient-box-2 rounded-3xl flex flex-col items-center">
               <div className="">
                 <svg
                   width="20"
@@ -104,7 +104,7 @@ const HappyClient = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="px-6 py-10 glassmorphism border-gradient-box-3 rounded-3xl flex flex-col items-center">
+            <div className="px-6 py-10 bg-[#0000004D] border-gradient-box-3 rounded-3xl flex flex-col items-center">
               <div className="">
                 <svg
                   width="20"
@@ -148,7 +148,7 @@ const HappyClient = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="px-6 py-10 glassmorphism border-gradient-box-2 rounded-3xl flex flex-col items-center">
+            <div className="px-6 py-10 bg-[#0000004D] border-gradient-box-2 rounded-3xl flex flex-col items-center">
               <div className="">
                 <svg
                   width="20"
@@ -192,7 +192,7 @@ const HappyClient = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="px-6 py-10 glassmorphism border-gradient-box-3 rounded-3xl flex flex-col items-center">
+            <div className="px-6 py-10 bg-[#0000004D] border-gradient-box-3 rounded-3xl flex flex-col items-center">
               <div className="">
                 <svg
                   width="20"
