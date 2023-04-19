@@ -6,14 +6,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="blogs" element={<Blogs />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <div className="dark:bg-black">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

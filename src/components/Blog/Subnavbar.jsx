@@ -3,9 +3,9 @@ import React from "react";
 const Subnavbar = () => {
   return (
     <>
-      <div className="w-[96%] h-[50%] border-gradient-box-5 rounded-lg py-2">
-        <div className="flex flex-row items-center justify-center gap-x-5">
-          <ul className="text-white flex flex-row items-center ">
+      <div className="w-full h-[50%] border-gradient-box-5 rounded-lg py-2 ">
+        <div className="flex flex-row items-center justify-center gap-x-3">
+          <ul className="text-white flex flex-row items-center pl-3 lg:px-14 w-[75%] overflow-auto whitespace-nowrap noscrollbar">
             <li className="mr-8 font-normal text-subtitle">All</li>
             <li className="mr-8 font-normal text-subtitle">Cloud</li>
             <li className="mr-8 font-normal text-subtitle">Products</li>
@@ -18,12 +18,12 @@ const Subnavbar = () => {
             <li className="mr-8 font-normal text-subtitle">Ai</li>
             <li className="mr-8 font-normal text-subtitle">Other</li>
           </ul>
-          <div className="border-gradient-box-6 text-lg relative px-3 py-1 flex items-center justify-between rounded-lg w-[25%]">
-            <div>
+          <div className="border-gradient-box-6 text-lg px-0 lg:px-3 py-1 flex items-center justify-center gap-x-10 rounded-lg w-[20%]">
+            <div className="hidden lg:block">
               <input
                 type="text"
                 placeholder="Search"
-                className="pr-3 bg-transparent w-full outline-none"
+                className="bg-transparent w-full outline-none"
               />
             </div>
             <div>

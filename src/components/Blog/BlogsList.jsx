@@ -8,7 +8,7 @@ const BlogsList = () => {
         return (
           <div
             key={record.index}
-            className="border-gradient-box-7 rounded-lg bg-transparent"
+            className="border-gradient-box-7 rounded-lg bg-transparent hover:cursor-pointer origin-top"
           >
             {/*======================================card================================== */}
             <div class="w-[326px] h-fit p-6 glassmorphism rounded-lg">
@@ -28,7 +28,7 @@ const BlogsList = () => {
                 </div>
               </div>
 
-              <div className="flex items-center my-6 h-fit">
+              <div className="my-6 h-fit overflow-hidden rounded-lg">
                 <img
                   className="w-[325px] h-[180px] mb-1 rounded-md transition duration-300 ease-in-out hover:scale-105"
                   src={record.image}
@@ -36,12 +36,12 @@ const BlogsList = () => {
                 />
               </div>
 
-              <div className="text-white flex items-center">
+              <div className="text-white">
                 <h1 className="p-1 text-subtitle not-italic font-medium capitalize">
                   {record.title}
                 </h1>
               </div>
-              <div className="text-white flex items-center">
+              <div className="text-white">
                 <p className="p-1 text-description not-italic font-light capitalize">
                   {record.disc}
                 </p>
