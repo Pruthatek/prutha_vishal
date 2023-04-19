@@ -8,7 +8,7 @@ const Blogs = () => {
       {/*======================================first blogs image======================= */}
       <div className="flex flex-row items-center my-5">
         <img
-          className="w-[50%] h-[25%] mb-3 rounded-lg "
+          className="w-[50%] h-[25%] mb-3 rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer"
           src="./img/blogs.png"
           alt="Bonnie "
         />

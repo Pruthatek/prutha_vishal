@@ -18,7 +18,7 @@ const Subnavbar = () => {
             <li className="mr-8 font-normal text-subtitle">Ai</li>
             <li className="mr-8 font-normal text-subtitle">Other</li>
           </ul>
-          <div className="border-gradient-box-6 text-lg relative px-3 py-1 flex items-center justify-between rounded-lg">
+          <div className="border-gradient-box-6 text-lg relative px-3 py-1 flex items-center justify-between rounded-lg w-[25%]">
             <div>
               <input
                 type="text"
