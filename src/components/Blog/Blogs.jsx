@@ -15,7 +15,7 @@ const Blogs = () => {
           />
         </div>
         <div className="w-[18rem] translate-x-[2rem] translate-y-[-6rem] lg:w-[38%] h-fit border-gradient-box-4 absolute lg:translate-x-[36rem] lg:translate-y-[-0.3rem] rounded-lg backdrop-blur-md">
-          <div className="text-white p-5 flex flex-col lg:gap-y-5">
+          <div className="p-5 flex flex-col lg:gap-y-5">
             <h1 className="font-semibold text-description lg:text-[28px] capitalize">
               Worldwide Repls, part 3: Firing Up The Engines
             </h1>

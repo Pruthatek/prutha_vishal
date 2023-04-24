@@ -5,12 +5,12 @@ import "swiper/css";
 const HappyClient = () => {
   return (
     <div className="mb-12">
-      <div className="text-[22px] font-bold text-white mb-5 text-center">
+      <div className="text-[22px] font-bold  mb-5 text-center">
         <h3>Happy clients Reviews</h3>
       </div>
+      
       {/* Cards */}
-
-      <div className="px-20">
+      <div className="px-20 text-white">
         <Swiper
           spaceBetween={50}
           slidesPerView={window.innerWidth > 640 ? 3 : 1}
@@ -30,7 +30,7 @@ const HappyClient = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -48,11 +48,11 @@ const HappyClient = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -74,7 +74,7 @@ const HappyClient = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -92,11 +92,11 @@ const HappyClient = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -118,7 +118,7 @@ const HappyClient = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -136,11 +136,11 @@ const HappyClient = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -162,7 +162,7 @@ const HappyClient = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -180,11 +180,11 @@ const HappyClient = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -206,7 +206,7 @@ const HappyClient = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -224,11 +224,11 @@ const HappyClient = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>

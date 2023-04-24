@@ -3,12 +3,12 @@ import Map from "./Map";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center my-20">
+    <div className="flex flex-col items-center mt-20 pb-10">
       <div className="hidden lg:block">
         <Map />
       </div>
       <div className="my-5">
-        <h2 className="text-[#363636] font-bold text-[59px] capitalize hidden lg:block">
+        <h2 className="text-[#2a2a2a] font-bold text-[59px] capitalize hidden lg:block">
           Pruthatek global engagement
         </h2>
       </div>

@@ -6,7 +6,7 @@ import CaseStudy from "./CaseStudy/CaseStudy";
 const Home = () => {
   return (
     <>
-      <div className="text-white px-20 mt-32 flex items-center justify-between mb-20">
+      <div className="px-20 mt-32 flex items-center justify-between mb-20">
         <div className="">
           <p className="text-[40px]">Your Idea Our Code</p>
           <p className="mt-10 w-[65%] text-justify">
@@ -16,7 +16,7 @@ const Home = () => {
             consectetuer adipiscing elit
           </p>
         </div>
-        <div className="bg-blue-900/30 rounded-full hidden lg:block">
+        <div className="dark:bg-blue-900/30 rounded-full hidden lg:block">
           <div className="backdrop-blur-3xl">
             <Home_img />
           </div>

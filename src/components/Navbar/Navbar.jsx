@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
-    <div className="text-white bg-transparent">
+    <div className="bg-transparent">
       {/* subCategoryDropdown */}
       <div
         id="subCategoryDropdown"
@@ -100,22 +100,14 @@ const Navbar = () => {
             </svg>
           </div>
           {/* Theme */}
-          <div>
-            <svg
-              width="18"
-              height="19"
-              viewBox="0 0 18 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M5.50778 3.9054C5.50778 9.02215 9.65573 13.1701 14.7725 13.1701C15.1483 13.1701 15.5191 13.1477 15.8838 13.104C14.566 15.2614 12.189 16.6999 9.47837 16.6999C5.33623 16.6999 1.97837 13.3421 1.97837 9.19995C1.97837 6.48951 3.41673 4.11272 5.57379 2.79482C5.53019 3.15925 5.50778 3.52989 5.50778 3.9054ZM7.03599 2.10623C6.90209 2.68432 6.83131 3.28659 6.83131 3.9054C6.83131 8.29119 10.3867 11.8466 14.7725 11.8466C15.3915 11.8466 15.994 11.7757 16.5723 11.6417C16.5738 11.6414 16.5753 11.641 16.5768 11.6407C16.6265 11.6291 16.6761 11.6171 16.7254 11.6047C16.9077 11.5586 17.0875 11.5062 17.2645 11.4477C17.6111 11.3333 17.9701 11.6329 17.8552 11.9793C17.7888 12.1796 17.7154 12.3768 17.6353 12.5704C17.6127 12.625 17.5896 12.6794 17.5659 12.7334C17.5646 12.7364 17.5633 12.7394 17.562 12.7424C16.1974 15.8517 13.0915 18.0235 9.47837 18.0235C4.60527 18.0235 0.654837 14.073 0.654837 9.19995C0.654837 5.58705 2.82626 2.48131 5.93524 1.11662C5.93824 1.1153 5.94124 1.11399 5.94424 1.11267C5.99828 1.08902 6.05261 1.0659 6.10721 1.04331C6.30087 0.963181 6.498 0.88975 6.69831 0.823304C7.04469 0.708405 7.34439 1.06743 7.22999 1.41398C7.17154 1.59101 7.11916 1.7708 7.07307 1.95309C7.0606 2.00244 7.04859 2.05197 7.03704 2.10168C7.03669 2.1032 7.03634 2.10471 7.03599 2.10623Z"
-                fill="white"
-              />
-            </svg>
+          <div className="cursor-pointer">
+            <img
+              onClick={props.handleThemeSwitch}
+              className={props.theme ? "bg-[#10101033] p-2 rounded-full" : ""}
+              src={props.theme ? "./img/moon.svg" : "./img/sun.svg"}
+            />
           </div>
+
           {/* Language Icon */}
           <div>
             <svg
@@ -180,61 +172,3 @@ export default Navbar;
 //     .getElementById("subCategoryDropdown")
 //     .classList.add("opacity-0");
 // }}
-{
-  /* <div className="border-gradient-box text-lg relative px-3 py-1 w-[50%] flex items-center justify-between rounded-md">
-<div>
-  <input
-    type="text"
-    placeholder="Search"
-    className="pr-3 bg-transparent w-full outline-none"
-  />
-</div>
-<div>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="21"
-    height="21"
-    viewBox="0 0 21 21"
-    fill="none"
-  >
-    <circle
-      cx="7.76271"
-      cy="7.92372"
-      r="6.76271"
-      stroke="url(#paint0_linear_169_18024)"
-      stroke-width="2"
-    />
-    <path
-      d="M14.5255 14.6866L20.0001 19.8391"
-      stroke="url(#paint1_linear_169_18024)"
-      stroke-width="2"
-      stroke-linecap="round"
-    />
-    <defs>
-      <linearGradient
-        id="paint0_linear_169_18024"
-        x1="2.49147"
-        y1="4.83973"
-        x2="12.7796"
-        y2="10.6341"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stop-color="#F05225" />
-        <stop offset="1" stop-color="#EEA820" />
-      </linearGradient>
-      <linearGradient
-        id="paint1_linear_169_18024"
-        x1="15.1292"
-        y1="16.088"
-        x2="19.1681"
-        y2="18.5049"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stop-color="#F05225" />
-        <stop offset="1" stop-color="#EEA820" />
-      </linearGradient>
-    </defs>
-  </svg>
-</div>
-</div> */
-}

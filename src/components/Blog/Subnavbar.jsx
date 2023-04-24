@@ -5,7 +5,7 @@ const Subnavbar = () => {
     <>
       <div className="w-full h-[50%] border-gradient-box-5 rounded-lg py-2 ">
         <div className="flex flex-row items-center justify-center gap-x-3">
-          <ul className="text-white flex flex-row items-center pl-3 lg:px-14 w-[75%] overflow-auto whitespace-nowrap noscrollbar">
+          <ul className=" flex flex-row items-center pl-3 lg:px-14 w-[75%] overflow-auto whitespace-nowrap noscrollbar">
             <li className="mr-8 font-normal text-subtitle">All</li>
             <li className="mr-8 font-normal text-subtitle">Cloud</li>
             <li className="mr-8 font-normal text-subtitle">Products</li>

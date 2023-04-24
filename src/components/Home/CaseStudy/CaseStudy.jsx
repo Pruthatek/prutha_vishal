@@ -7,11 +7,11 @@ const CaseStudy = () => {
     <div className="my-5">
       <div className="flex flex-col items-center justify-center mb-5">
         {/* title */}
-        <div className="text-white font-bold text-[22px] text-center">
+        <div className=" font-bold text-[22px] text-center">
           <h4>Case Studies</h4>
         </div>
         {/* description */}
-        <div className="my-5 text-white font-normal hidden lg:block">
+        <div className="my-5  font-normal hidden lg:block">
           {/* <svg
             width="25"
             height="25"
@@ -77,7 +77,7 @@ const CaseStudy = () => {
       </div>
 
       {/* Cards */}
-      <div className="px-20">
+      <div className="px-20 text-white">
         <Swiper
           spaceBetween={50}
           slidesPerView={window.innerWidth > 640 ? 3 : 1}
@@ -97,7 +97,7 @@ const CaseStudy = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -115,11 +115,11 @@ const CaseStudy = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -141,7 +141,7 @@ const CaseStudy = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -159,11 +159,11 @@ const CaseStudy = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -185,7 +185,7 @@ const CaseStudy = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -203,11 +203,11 @@ const CaseStudy = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -229,7 +229,7 @@ const CaseStudy = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -247,11 +247,11 @@ const CaseStudy = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>
@@ -273,7 +273,7 @@ const CaseStudy = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="mt-3 font-normal text-white text-description text-justify">
+                <p className="mt-3 font-normal  text-description text-justify">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                   Lorem ipsum sit amet, consectetuer adipiscing elit, Lorem
                   ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
@@ -291,11 +291,11 @@ const CaseStudy = () => {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h5 className="mb-1 font-semibold text-subtitle text-white">
+                  <h5 className="mb-1 font-semibold text-subtitle ">
                     Daniel Lane,
                   </h5>
 
-                  <span className="text-[12px] text-white font-normal">
+                  <span className="text-[12px]  font-normal">
                     Developer, Lorem ipsum dolor sit amet,
                   </span>
                 </div>

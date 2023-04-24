@@ -18,11 +18,11 @@ const BlogsList = () => {
                   src={record.proimage}
                   alt="owner"
                 />
-                <div className="text-white font-normal text-[13px] ">
+                <div className=" font-normal text-[13px] ">
                   <h1>{record.name}</h1>
                 </div>
                 <div className="border-[1px] rounded-full py-1 px-3">
-                  <h5 className="text-white flex items-center font-normal text-description">
+                  <h5 className=" flex items-center font-normal text-description">
                     {record.date}
                   </h5>
                 </div>
@@ -36,12 +36,12 @@ const BlogsList = () => {
                 />
               </div>
 
-              <div className="text-white">
+              <div className="">
                 <h1 className="p-1 text-subtitle not-italic font-medium capitalize">
                   {record.title}
                 </h1>
               </div>
-              <div className="text-white">
+              <div className="">
                 <p className="p-1 text-description not-italic font-light capitalize">
                   {record.disc}
                 </p>
