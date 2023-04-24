@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutUs from "./components/About/AboutUs";
 
 const App = () => {
   const [theme, setTheme] = useState(null);
@@ -35,6 +36,7 @@ const App = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
+          <Route path="aboutus" element={<AboutUs />} />
         </Routes>
         <Footer />
       </Router>
