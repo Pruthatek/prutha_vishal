@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/About/AboutUs";
+import Team from "./Pages/Team";
 
 const App = () => {
   const [theme, setTheme] = useState(null);
@@ -37,6 +38,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="aboutus" element={<AboutUs />} />
+          <Route path="team" element={<Team />} />
         </Routes>
         <Footer />
       </Router>
