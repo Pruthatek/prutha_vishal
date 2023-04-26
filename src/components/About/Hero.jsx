@@ -2,7 +2,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center px-20 gap-x-10">
+    <div
+      className="flex flex-col md:flex-row justify-center items-center px-20 gap-x-10"
+      style={{
+        backgroundImage: "url('/img/squareBG.png')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="lg:w-[50%] w-full">
         <img src="/img/Aboutus.png" alt="" className="" />
       </div>

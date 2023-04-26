@@ -5,11 +5,11 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/About/AboutUs";
-import Team from "./Pages/Team";
+import Team from "./components/Team/Team";
 
 const App = () => {
+  // Dark Mode
   const [theme, setTheme] = useState(null);
-
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
@@ -17,7 +17,6 @@ const App = () => {
       setTheme("light");
     }
   }, []);
-
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");

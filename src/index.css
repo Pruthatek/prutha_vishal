@@ -94,10 +94,9 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .glassmorphism {
-  background: #3a3a3a4d;
-  box-shadow: 0px 3.93095px 19.6547px #1e1e1e;
-  backdrop-filter: blur(14.7411px);
-  -webkit-backdrop-filter: blur(14.7411px);
+  background: rgba(58, 58, 58, 0.3);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 .noscrollbar::-webkit-scrollbar {
   display: none;
