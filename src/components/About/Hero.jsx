@@ -13,8 +13,9 @@ const Hero = () => {
       <div className="lg:w-[50%] w-full">
         <img src="/img/Aboutus.png" alt="" className="" />
       </div>
-      <div className="lg:px-8 lg:py-3 px-4 py-2 rounded-lg border-gradient-box-4 lg:w-[40%] w-full text-white">
-        <h2 className="lg:text-title text-[26px] lg:font-semibold text-gradient-2">
+      <div className="rounded-lg border-gradient-box-4 lg:w-[40%] w-full text-white">
+       <div className="glassmorphism p-8 rounded-lg">
+       <h2 className="lg:text-title text-[26px] lg:font-semibold text-gradient-2">
           Our Story
         </h2>
         <div className="mt-5">
@@ -40,6 +41,7 @@ const Hero = () => {
             we're not just building apps, we're shaping the future.
           </p>
         </div>
+       </div>
       </div>
     </div>
   );

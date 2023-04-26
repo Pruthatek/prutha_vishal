@@ -6,7 +6,7 @@ const Value = () => {
       <h2 className="text-title lg:text-[25px] text-center">
         Pruthatek Cornerstones
       </h2>
-      <p className="text-[16px] text-center lg:w-[74%] hidden lg:block">
+      <p className="text-[10px] lg:text-subtitle text-center lg:w-[74%] hidden lg:block">
         We are building solutions that create rewarding results, and as a
         knowledge-driven IT company, we offer services to our clients with
         better experience and satisfaction.

@@ -40,15 +40,15 @@ const OurTeam = () => {
     {
       id: 6,
       src: "/img/pic6.png",
-      title: "Shubham",
-      Worker: "Fronted Develper",
+      title: "Shubham Bhogayata",
+      Worker: "Fronted Developer",
       style: "shadow-gray-400",
     },
     {
       id: 7,
       src: "/img/pic6.png",
       title: "Ansh Modi",
-      Worker: "Fronted Develper",
+      Worker: "Fronted Developer",
       style: "shadow-green-400",
     },
   ];
