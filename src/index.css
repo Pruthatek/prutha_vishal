@@ -98,6 +98,18 @@ body {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
+.circle {
+  position: absolute;
+  width: 600.48px;
+  height: 600.48px;
+  background: linear-gradient(
+    130.35deg,
+    rgba(252, 70, 107, 0.2) -4.08%,
+    rgba(63, 94, 251, 0.2) 98.72%
+  );
+  filter: blur(100.5px);
+  border-radius: 500px;
+}
 .noscrollbar::-webkit-scrollbar {
   display: none;
 }

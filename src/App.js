@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/About/AboutUs";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   // Dark Mode
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="blogs" element={<Blogs />} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="team" element={<Team />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
