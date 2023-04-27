@@ -3,6 +3,8 @@ import Home_img from "./Home_img";
 import HappyClient from "./HappyClient/HappyClient";
 import CaseStudy from "./CaseStudy/CaseStudy";
 import Kijeka from "./Kijeka";
+import Sage from "./Sage";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
       <div className="px-20 mt-32 flex items-center justify-between mb-20">
         <div className="">
           <p className="text-[40px]">Your Idea Our Code</p>
-          <p className="mt-10 w-[65%] text-justify">
+          <p className="mt-10 lg:w-[65%] text-justify">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, Lorem
             ipsum sit amet, consectetuer adipiscing elit, Lorem ipsum dolor sit
             amet, consectetuer adipiscing elit, Lorem ipsum dolor sit amet,
@@ -25,8 +27,10 @@ const Home = () => {
       </div>
       {/* Product */}
       <Kijeka />
+      <Sage />
       <HappyClient />
       <CaseStudy />
+      <Faq/>
     </>
   );
 };

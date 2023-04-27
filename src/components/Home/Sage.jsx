@@ -1,10 +1,10 @@
 import React from "react";
 
-const Kijeka = () => {
+const Sage = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between px-20 mb-20">
       <div className="border-gradient-box-8 rounded-lg lg:w-[40%]">
-        <img src="/img/kijeka.png" alt="" />
+        <img src="/img/sage.png" alt="" />
       </div>
       <div className="flex flex-col lg:gap-y-10 lg:w-[50%] mt-5 lg:mt-0 gap-y-3">
         <p className="uppercase text-title lg:text-[20px] dark:text-[#CFCFCF] tracking-[0.295em] font-[300]">
@@ -25,4 +25,4 @@ const Kijeka = () => {
   );
 };
 
-export default Kijeka;
+export default Sage;
