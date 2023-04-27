@@ -1,8 +1,6 @@
 import React from "react";
 import { BiSend } from "react-icons/bi";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 
 const Contact = () => {
@@ -18,7 +16,7 @@ const Contact = () => {
             <h2 className="text-title md:gap-y-12 lg:text-[30px] font-semibold">
               <span className="">Have an Idea and Want to</span>
               <br />
-              <span className="textborder lg:ml-32 lg:text-[30px]">
+              <span className="lg:ml-32 lg:text-[30px]">
                 Create App or web?
               </span>
             </h2>
@@ -32,7 +30,7 @@ const Contact = () => {
       </div>
 
       {/* Client Section */}
-      <div className=" lg:mt-5">
+      <div className="mt-5">
         <h2 className="flex justify-center text-[20px] items-center font-semibold lg:text-[26px] ">
           Trusted And Happy Clients
         </h2>
@@ -64,10 +62,10 @@ const Contact = () => {
       </div>
 
       {/* Form */}
-      <div className="lg:px-20 px-4 mt-32">
-        <div className="glassmorphism rounded-lg p-2">
-          <div className="lg:mt-12 ">
-            <h2 className="text-title lg:text-[40px] flex justify-center items-center">
+      <div className="lg:px-20 px-4 mt-5 lg:mt-32">
+        <div className="glassmorphism rounded-lg px-2 py-5">
+          <div className="lg:mt-12">
+            <h2 className="text-title lg:text-[40px] text-center">
               Schedule A Meeting With A Specialist.
             </h2>
           </div>

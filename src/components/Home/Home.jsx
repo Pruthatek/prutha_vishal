@@ -2,6 +2,7 @@ import React from "react";
 import Home_img from "./Home_img";
 import HappyClient from "./HappyClient/HappyClient";
 import CaseStudy from "./CaseStudy/CaseStudy";
+import Kijeka from "./Kijeka";
 
 const Home = () => {
   return (
@@ -22,6 +23,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Product */}
+      <Kijeka />
       <HappyClient />
       <CaseStudy />
     </>

@@ -76,6 +76,14 @@ body {
     linear-gradient(176.94deg, #f05225 2.2%, rgba(238, 168, 32, 0) 97.09%)
       border-box;
 }
+.border-gradient-box-8 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, #0038ff 0%, rgba(214, 214, 214, 0) 129.53%)
+      border-box;
+}
 .border-gradient-bottom-orange {
   border: 2px solid;
   border-image: linear-gradient(to right, #f05225, #eea820) 1;
@@ -90,6 +98,11 @@ body {
 }
 .text-gradient-2 {
   background: -webkit-linear-gradient(#0da1da, #5db98e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-3 {
+  background: -webkit-linear-gradient(#0038ff, #3a86ff, #6dccff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
