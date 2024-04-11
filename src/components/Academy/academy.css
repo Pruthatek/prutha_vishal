@@ -1,0 +1,140 @@
+.LiveClass{
+    background: var(--1, linear-gradient(303deg, #0038FF 54.81%, #3A86FF 85.95%, #6DCCFF 114.01%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.Free{
+    background: var(--2, linear-gradient(119deg, #F05225 16.85%, #EEA820 80.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.Button-Book{
+    border-radius: 6px;
+background: var(--2, linear-gradient(119deg, #F05225 16.85%, #EEA820 80.95%));
+}
+
+.only{
+    background: var(--1, linear-gradient(303deg, #0038FF 54.81%, #3A86FF 85.95%, #6DCCFF 114.01%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text35{
+    background: var(--2, linear-gradient(119deg, #F05225 16.85%, #EEA820 80.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Euclid Circular A;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.longin{
+    background: var(--1, linear-gradient(303deg, #0038FF 54.81%, #3A86FF 85.95%, #6DCCFF 114.01%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Terms{
+    background: var(--1, linear-gradient(303deg, #0038FF 54.81%, #3A86FF 85.95%, #6DCCFF 114.01%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Euclid Circular A;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: capitalize;
+}
+.Privacy{
+    background: var(--1, linear-gradient(303deg, #0038FF 54.81%, #3A86FF 85.95%, #6DCCFF 114.01%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Euclid Circular A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+/* weoffers css */
+.cardweoffers{
+    border-radius: 8px;
+background: var(--primary-white, #FFF);
+
+/* drop02 */
+box-shadow: 0px 4px 21px 0px rgba(178, 178, 178, 0.50);
+}
+.Rectangle-image{
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(2deg, #000 3.02%, rgba(0, 0, 0, 0.04) 98.75%), lightgray 50% / cover no-repeat, linear-gradient(90deg, #0DA1DA -0.09%, #5DB98E 99.74%); 
+}
+
+.cardstitle{
+    background: var(--2, linear-gradient(119deg, #F05225 16.85%, #EEA820 80.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.button-bg{
+    border-radius: 5px;
+background: var(--2, linear-gradient(119deg, #F05225 16.85%, #EEA820 80.95%));
+}
+.button-bg2{
+    border-radius: 8px;
+background: var(--primary-white, #FFF);
+
+/* drop02 */
+box-shadow: 0px 4px 21px 0px rgba(178, 178, 178, 0.50);
+}
+
+.viewmorebtn{
+
+border-radius: 4.943px;
+border: 1px solid #FFF;
+background: #F9F9F9;
+box-shadow: 0px 4.94322px 14px 0px rgba(155, 155, 155, 0.25);
+}
+.bordershadowmember{
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(14.741059303283691px);
+backdrop-filter: blur(14.741059303283691px);
+
+
+
+}
+
+/* 
+.spin-animation{
+    left:-25;
+    top:-25;
+    animation: spin 1.5s infinite linear;
+}
+@keyframe spin{
+    0%{
+        transform:rotate(0deg) 
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+} */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/site.webmanifest" />
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#000000" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Pruthatek</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="Pruthatek"></div>
+    <script type="text/javascript">
+      document.addEventListener("mousemove", parallax);
+      function parallax(e) {
+        this.querySelectorAll(".move").forEach((layer) => {
+          const speed = layer.getAttribute("data-value");
+
+          const x = (window.innerWidth - e.pageX * speed) / 200;
+          const y = (window.innerHeight - e.pageX * speed) / 200;
+
+          layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
+        });
+      }
+    </script>
+  </body>
+</html>

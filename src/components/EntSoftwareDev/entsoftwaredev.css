@@ -1,0 +1,174 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.our-card {
+  background: radial-gradient(#111 50%, #000 100%);
+}
+
+.our-card .ourimage {
+  transform: translate(-1px);
+  transition: all 0.3s ease-in;
+}
+.our-card:hover .ourimage {
+  transform: scale(1.1) translateY(0px);
+  opacity: 0.3;
+}
+.our-card .ourdescription {
+  position: absolute;
+  top: 35px ;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.truncat-desc{
+    display: -webkit-box;
+    
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  } 
+
+
+
+@media (min-width:600px)  {
+    .our-card .ourdescription {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      .truncat-desc{
+        display: -webkit-box;
+       
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      } 
+ }
+
+ @media (min-width:320px) {
+    .truncat-desc{
+        display: -webkit-box;
+       
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      } 
+ } 
+.our-card .ourdescription .ourtextcircle {
+  font-weight: 700;
+  margin: 0 0 20px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.our-card .ourdescription .ourtextcirclesm {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+.our-card:hover .ourdescription .ourtextcircle {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.our-card:hover .ourdescription .ourtextcirclesm {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+/* ===========================ourBcontinuty small tabllet device css========= */
+
+.our-cardss {
+  background: radial-gradient(#111 50%, #000 100%);
+}
+
+.our-cardss .ourimagess {
+  transform: translate(-1px);
+  transition: all 0.3s ease-in;
+}
+.our-cardss:hover .ourimagess {
+  transform: scale(1.1) translateY(0px);
+  opacity: 0.3;
+}
+.our-cardss .ourdescriptionss {
+  position: absolute;
+  top: 35px ;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.truncat-descss{
+    display: -webkit-box;
+    
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  } 
+
+
+
+@media (min-width:600px)  {
+    .our-cardss .ourdescriptionss {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      .truncat-descss{
+        display: -webkit-box;
+       
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      } 
+ }
+
+ @media (min-width:320px) {
+    .truncat-descss{
+        display: -webkit-box;
+       
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      } 
+ } 
+.our-cardss .ourdescriptionss .ourtextcircless {
+  font-weight: 700;
+  margin: 0 0 20px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+/* .our-cardss .ourdescriptionss .ourtextcirclesmss {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+} */
+/* .our-cardss:hover .ourdescriptionss .ourtextcircless {
+  opacity: 1;
+  transform: translateY(0px);
+} */
+/* .our-cardss:hover .ourdescriptionss .ourtextcirclesmss {
+  opacity: 1;
+  transform: translateY(0px);
+} */
+
+
