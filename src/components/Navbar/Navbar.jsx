@@ -37,20 +37,20 @@ const Navbar = (props) => {
       title: "Offerings & Advancements",
       link: "",
       data: `<ul class="list-disc grid grid-cols-2 gap-8 gap-x-10 w-full mx-auto ml-5">
-        <li class="cursor-pointer">Enterprise Software Development</li>
+        <li class="cursor-pointer"><a href="/enterprise">Enterprise Software Development</a></li>
         <li class="cursor-pointer">
         <a href='web-development'>
         Web Application Development
         </a>
         </li>
-        <li class="cursor-pointer">Mobile Application Development</li>
-        <li class="cursor-pointer">E-commerce / Retail</li>
-        <li class="cursor-pointer">Artificial Intelligence</li>
-        <li class="cursor-pointer">Machine Learning</li>
-        <li class="cursor-pointer">DevOps</li>
-        <li class="cursor-pointer">E-commerce</li>
-        <li class="cursor-pointer">Product Engineering</li>
-        <li class="cursor-pointer">QA Testing</li>
+        <li class="cursor-pointer"><a href="/mobiledevelopment">Mobile Application Development</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">E-commerce / Retail</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">Artificial Intelligence</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">Machine Learning</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">DevOps</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">E-commerce</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">Product Engineering</a></li>
+        <li class="cursor-pointer"><a href="/underdevelopment">QA Testing</a></li>
       </ul>`,
     },
     {

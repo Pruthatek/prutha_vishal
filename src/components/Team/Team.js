@@ -59,7 +59,7 @@ const Team = (props) => {
 			<div className="max-w-screen-lg my-20 mx-auto">
 				<h1 className="font-bold text-title text-center text-[#B3B3B3] dark:text-white mb-3">Branding & Design Experts</h1>
 				<div className="flex flex-row flex-wrap justify-center items-center gap-10 gap-y-[6rem] text-center mt-28">
-					{teamMembersData.slice(6, 8).map((item, index) => (
+					{teamMembersData.slice(6, 7).map((item, index) => (
 						<TeamMembers item={item} key={index} setdetails={setdetails} theme={props.theme} />
 					))}
 				</div>

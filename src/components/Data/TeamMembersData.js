@@ -96,20 +96,20 @@ export const teamMembersData = [
 			"UI/UX Design, Video Editing, Animations, Logo Design, Logo Animations.",
 		Learninig: "Flutter, 3D Animations And Modelling.",
 	},
-	{
-		style: "shadow-[#3224FF]",
-		gradientBorder: "from-[#D400A5] via-[#1F7ECB] to-[#2ED6E3]",
-		img: "",
-		name: "Fuzel Shaikh",
-		lastName: "Shaikh",
-		role: "UI/ UX Designer",
-		experience: "3+ years of experience",
-		Skills:
-			"Designs visually appealing and user-friendly interfaces for websites and applications. Expertise in wireframing, prototyping, and user testing.",
-		Experties:
-			"Visual Creativity, Motion Graphics, Brand Identity, Logo Works.",
-		Learninig: "",
-	},
+	// {
+	// 	style: "shadow-[#3224FF]",
+	// 	gradientBorder: "from-[#D400A5] via-[#1F7ECB] to-[#2ED6E3]",
+	// 	img: "",
+	// 	name: "Fuzel Shaikh",
+	// 	lastName: "Shaikh",
+	// 	role: "UI/ UX Designer",
+	// 	experience: "3+ years of experience",
+	// 	Skills:
+	// 		"Designs visually appealing and user-friendly interfaces for websites and applications. Expertise in wireframing, prototyping, and user testing.",
+	// 	Experties:
+	// 		"Visual Creativity, Motion Graphics, Brand Identity, Logo Works.",
+	// 	Learninig: "",
+	// },
 	{
 		style: "shadow-[#DC1C13]",
 		gradientBorder: "from-[#7A4199] via-[#AC3F6D] to-[#E93E3A]",
@@ -182,33 +182,33 @@ export const teamMembersData = [
 		Learninig:
 			"closures, prototypes, async/await, and functional programming, Progressive Web Apps (PWA).",
 	},
-	{
-		style: "shadow-[#FF77FF]",
-		gradientBorder: "from-[#F05225] to-[#EEA820]",
-		img: "",
-		name: "Nilesh Padhiyar",
-		lastName: "Padhiyar",
-		role: "Front End Developer",
-		experience: "2+ years of experience",
-		Skills:
-			"Proficient in using design software such as Adobe Photoshop and Illustrator Familiarity with version control systems such as Git and SVN.",
-		Experties:
-			"TypeScript Fluency, Responsive Design Skills, UI/UX Design Principles, Cross-Browser Compatibility, Accessibility Standards (ARIA).",
-		Learninig: "React Native, Flutter.",
-	},
-	{
-		style: "shadow-[#C21E57]",
-		gradientBorder: "from-[#7A4199] via-[#AC3F6D] to-[#E93E3A]",
-		img: "",
-		name: "Darshan Prajapati",
-		lastName: "Prajapati",
-		role: "Front End Developer",
-		experience: "1+ years of experience",
-		Skills:
-			"Understanding of SEO principles and how to apply them to website development Experience with testing and debugging tools such as Chrome DevTools and Firebug.",
-		Experties: "HTML5/CSS3, UI/UX Design Principles, Git Version Control.",
-		Learninig: "Web Animation, Webpack, Gulp, Grunt.",
-	},
+	// {
+	// 	style: "shadow-[#FF77FF]",
+	// 	gradientBorder: "from-[#F05225] to-[#EEA820]",
+	// 	img: "",
+	// 	name: "Nilesh Padhiyar",
+	// 	lastName: "Padhiyar",
+	// 	role: "Front End Developer",
+	// 	experience: "2+ years of experience",
+	// 	Skills:
+	// 		"Proficient in using design software such as Adobe Photoshop and Illustrator Familiarity with version control systems such as Git and SVN.",
+	// 	Experties:
+	// 		"TypeScript Fluency, Responsive Design Skills, UI/UX Design Principles, Cross-Browser Compatibility, Accessibility Standards (ARIA).",
+	// 	Learninig: "React Native, Flutter.",
+	// },
+	// {
+	// 	style: "shadow-[#C21E57]",
+	// 	gradientBorder: "from-[#7A4199] via-[#AC3F6D] to-[#E93E3A]",
+	// 	img: "",
+	// 	name: "Darshan Prajapati",
+	// 	lastName: "Prajapati",
+	// 	role: "Front End Developer",
+	// 	experience: "1+ years of experience",
+	// 	Skills:
+	// 		"Understanding of SEO principles and how to apply them to website development Experience with testing and debugging tools such as Chrome DevTools and Firebug.",
+	// 	Experties: "HTML5/CSS3, UI/UX Design Principles, Git Version Control.",
+	// 	Learninig: "Web Animation, Webpack, Gulp, Grunt.",
+	// },
 	{
 		style: "shadow-[#FDB777]",
 		gradientBorder: "from-[#D400A5] via-[#1F7ECB] to-[#2ED6E3]",
@@ -223,20 +223,20 @@ export const teamMembersData = [
 			"Web Services Integration, Backend Frameworks, RESTful API Design.",
 		Learninig: "Performance Optimization, Distributed Systems.",
 	},
-	{
-		style: "shadow-[#E56AB3]",
-		gradientBorder: "from-[#F05225] to-[#EEA820]",
-		img: "",
-		name: "Kush Mewada",
-		lastName: "Mewada",
-		role: "Backend Developer",
-		experience: "2+ years of experience",
-		Skills:
-			"Expertise in back-end languages such as Node.js, Python, and Java Familiarity with back-end frameworks such as Express, Flask, and Spring Boot Experience in building scalable and high-performance applications using AWS and other cloud platforms.",
-		Experties:
-			"Server-Side Architecture, Database Management, Data Modeling, Microservices Development.",
-		Learninig: "Ruby on Rails, Django, ASP.NET, Golang.",
-	},
+	// {
+	// 	style: "shadow-[#E56AB3]",
+	// 	gradientBorder: "from-[#F05225] to-[#EEA820]",
+	// 	img: "",
+	// 	name: "Kush Mewada",
+	// 	lastName: "Mewada",
+	// 	role: "Backend Developer",
+	// 	experience: "2+ years of experience",
+	// 	Skills:
+	// 		"Expertise in back-end languages such as Node.js, Python, and Java Familiarity with back-end frameworks such as Express, Flask, and Spring Boot Experience in building scalable and high-performance applications using AWS and other cloud platforms.",
+	// 	Experties:
+	// 		"Server-Side Architecture, Database Management, Data Modeling, Microservices Development.",
+	// 	Learninig: "Ruby on Rails, Django, ASP.NET, Golang.",
+	// },
 	{
 		style: "shadow-[#FFFFB7]",
 		gradientBorder: "from-[#D400A5] via-[#1F7ECB] to-[#2ED6E3]",

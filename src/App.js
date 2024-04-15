@@ -38,7 +38,7 @@ import ChatBot from "./components/ChatBot/ChatBot";
 import Button from "./components/ChatBot/Button";
 import MobileDevelopment from "./components/MobileDevelopment/MobileDevelopment";
 import SoftwareTesting from "./components/SoftwareTesting/SoftwareTesting";
-
+import Chatbot from "./components/ChatBot/ChatBot";
 
 const App = () => {
   // AOS for animation
@@ -82,17 +82,23 @@ const App = () => {
           <Route path="/aboutus" element={<AboutUs theme={theme} />} />
           <Route path="/team" element={<Team theme={theme} />} />
           <Route path="/contact" element={<Contact theme={theme} />} />
-          <Route path="/web-development" element={<WebDevelopment theme={theme} />}/>
-                    <Route path="/qualitymanagement" element={<Qualitymanag theme={theme} />} />
-                    <Route path="/enterprise" element={<EntSoftwareDev theme={theme} />} />
+          <Route
+            path="/web-development"
+            element={<WebDevelopment theme={theme} />}
+          />
+          <Route
+            path="/qualitymanagement"
+            element={<Qualitymanag theme={theme} />}
+          />
+          <Route
+            path="/enterprise"
+            element={<EntSoftwareDev theme={theme} />}
+          />
           <Route
             path="/underdevelopment"
             element={<UnderDevelopment theme={theme} />}
           />
-          <Route
-            path="/chatbot"
-            element={<ChatBot theme={theme} />}
-          />
+          <Route path="/chatbot" element={<ChatBot theme={theme} />} />
           <Route path="/methodology" element={<Methodology theme={theme} />} />
           <Route path="/engagement" element={<Engagement theme={theme} />} />
           <Route path="/business" element={<Business theme={theme} />} />
@@ -104,20 +110,43 @@ const App = () => {
           <Route path="/nodestack" element={<Nodestack theme={theme} />} />
           <Route path="/mongostack" element={<Mongostack theme={theme} />} />
           <Route path="/djangostack" element={<Djangostack theme={theme} />} />
-          <Route path="/restapistack" element={<RestApistack theme={theme} />} />
-          <Route path="/tailwindstack" element={<Tailwindstack theme={theme} />} />
-          <Route path="/expressstack" element={<Expressstack theme={theme} />} />
+          <Route
+            path="/restapistack"
+            element={<RestApistack theme={theme} />}
+          />
+          <Route
+            path="/tailwindstack"
+            element={<Tailwindstack theme={theme} />}
+          />
+          <Route
+            path="/expressstack"
+            element={<Expressstack theme={theme} />}
+          />
           <Route path="/academy" element={<Academy theme={theme} />} />
-          <Route path="/digitalmarketing" element={<DigitalMarketing theme={theme} />} />
-          <Route path="/customsoftware" element={<CustomSoftware theme={theme} />} />
-          <Route path="/crossplatform" element={<CrossPlatform theme={theme} />} />
-          <Route path="/mobiledevelopment" element={<MobileDevelopment theme={theme} />} />
-          <Route path="/softwaretesting" element={<SoftwareTesting theme={theme}/>}/>
-          
-
+          <Route
+            path="/digitalmarketing"
+            element={<DigitalMarketing theme={theme} />}
+          />
+          <Route
+            path="/customsoftware"
+            element={<CustomSoftware theme={theme} />}
+          />
+          <Route
+            path="/crossplatform"
+            element={<CrossPlatform theme={theme} />}
+          />
+          <Route
+            path="/mobiledevelopment"
+            element={<MobileDevelopment theme={theme} />}
+          />
+          <Route
+            path="/softwaretesting"
+            element={<SoftwareTesting theme={theme} />}
+          />
         </Routes>
         {/* {localStorage.getItem("PruthatekCookie") === true ? <Cookies /> : <></>} */}
-        <Button/>
+        {/* <Button/> */}
+        <Chatbot />
         <Cookies />
         <Footer theme={theme} />
       </Router>

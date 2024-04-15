@@ -16,13 +16,14 @@ const FooterLinks = () => {
       title: "App Development Maintenance Services",
       link: "/underdevelopment",
     },
-    { title: "Testing Services", link: "/underdevelopment" },
+    { title: "Testing Services", link: "/softwaretesting" },
     { title: "Intelligent Automation", link: "/underdevelopment" },
     { title: "Ecommerce", link: "/underdevelopment" },
+    { title: "Custom Software", link: "/customsoftware" },
   ];
   const expertisData = [
     { title: "Web Application Developments", link: "/web-development" },
-    { title: "Mobile Application Developments", link: "/underdevelopment" },
+    { title: "Mobile Application Developments", link: "/mobiledevelopment" },
     { title: "Enterprise Software Developments", link: "/enterprise" },
     {
       title: "Cross Platform Software Developments",
