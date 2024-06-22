@@ -13,6 +13,10 @@ const Client = () => {
       src: "/img/archfin.png",
     },
     {
+      src: "/img/kushal logo.svg",
+      link:"https://kushalbrothers.com",
+    },
+    {
       src: "/img/aurum.png",
     },
     {
