@@ -278,7 +278,6 @@ const Contact = (props) => {
 
             <div className=" md:px-6 my-2 relative ">
               {/* svg subtract  */}
-
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="21"

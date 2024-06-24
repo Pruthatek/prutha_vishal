@@ -39,6 +39,7 @@ import Button from "./components/ChatBot/Button";
 import MobileDevelopment from "./components/MobileDevelopment/MobileDevelopment";
 import SoftwareTesting from "./components/SoftwareTesting/SoftwareTesting";
 import Chatbot from "./components/ChatBot/ChatBot";
+import Ad from "./components/Ad/Ad";
 
 const App = () => {
   // AOS for animation
@@ -143,6 +144,7 @@ const App = () => {
             path="/softwaretesting"
             element={<SoftwareTesting theme={theme} />}
           />
+          <Route path="/ad" element={<Ad theme={theme} />} />
         </Routes>
         {/* {localStorage.getItem("PruthatekCookie") === true ? <Cookies /> : <></>} */}
         {/* <Button/> */}
