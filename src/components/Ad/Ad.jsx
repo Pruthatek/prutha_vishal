@@ -1,12 +1,64 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 function Ad(props) {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    country: "",
+    message: "",
+  });
+  const [formStatus, setFormStatus] = useState("");
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await axios.post(
+        "https://api.web3forms.com/submit",
+        {
+          access_key: "3679f4ae-74b7-4cc0-a68e-31ede7a795c5",
+          ...formData,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.data.success) {
+        setFormStatus("Form submitted successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          mobile: "",
+          country: "",
+          message: "",
+        });
+      } else {
+        setFormStatus("Form submission failed. Please try again.");
+      }
+    } catch (error) {
+      setFormStatus("An error occurred. Please try again.");
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center px-10 lg:px-20 pt-20 relative">
+    <div className="flex flex-col items-center px-10 lg:px-32 pt-24 relative">
       <div
         className="circle hidden xl:block top-10 right-0"
         style={{
-          background: "linear-gradient(130.35deg, #FC466B33, #3F5EFB33",
+          background: "linear-gradient(130.35deg, #FC466B33, #3F5EFB33)",
         }}
       />
       <div className="max-w-4xl w-full flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8">
@@ -19,13 +71,19 @@ function Ad(props) {
           }
         >
           <h2 className="text-2xl font-semibold mb-4 text-xl">Contact Form</h2>
-          <form className="flex flex-col justify-center gap-y-10">
+          <form
+            className="flex flex-col justify-center gap-y-5"
+            onSubmit={handleSubmit}
+          >
             <div className="w-[100%] relative">
               <input
                 type="text"
                 id="name"
+                value={formData.name}
+                onChange={handleChange}
                 className="peer block w-max lg:w-[70%] border-b dark:border-white border-black bg-transparent px-2.5 pb-2.5 pt-5 text-sm focus:border-black dark:focus:border-white focus:outline-none focus:ring-0"
                 placeholder=" "
+                required
               />
               <label
                 htmlFor="name"
@@ -38,8 +96,11 @@ function Ad(props) {
               <input
                 type="email"
                 id="email"
+                value={formData.email}
+                onChange={handleChange}
                 className="peer block w-max lg:w-[70%] border-b dark:border-white border-black bg-transparent px-2.5 pb-2.5 pt-5 text-sm focus:border-black dark:focus:border-white focus:outline-none focus:ring-0"
                 placeholder=" "
+                required
               />
               <label
                 htmlFor="email"
@@ -49,10 +110,47 @@ function Ad(props) {
               </label>
             </div>
             <div className="w-[100%] relative">
-              <textarea
-                id="message"
+              <input
+                type="text"
+                id="mobile"
+                value={formData.mobile}
+                onChange={handleChange}
                 className="peer block w-max lg:w-[70%] border-b dark:border-white border-black bg-transparent px-2.5 pb-2.5 pt-5 text-sm focus:border-black dark:focus:border-white focus:outline-none focus:ring-0"
                 placeholder=" "
+                required
+              />
+              <label
+                htmlFor="mobile"
+                className="absolute left-0 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75"
+              >
+                Mobile
+              </label>
+            </div>
+            <div className="w-[100%] relative">
+              <input
+                type="text"
+                id="country"
+                value={formData.country}
+                onChange={handleChange}
+                className="peer block w-max lg:w-[70%] border-b dark:border-white border-black bg-transparent px-2.5 pb-2.5 pt-5 text-sm focus:border-black dark:focus:border-white focus:outline-none focus:ring-0"
+                placeholder=" "
+                required
+              />
+              <label
+                htmlFor="country"
+                className="absolute left-0 top-4 z-10 origin-[0] -translate-y-4 scale-75 transform text-sm duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-4 peer-focus:scale-75"
+              >
+                Country
+              </label>
+            </div>
+            <div className="w-[100%] relative">
+              <textarea
+                id="message"
+                value={formData.message}
+                onChange={handleChange}
+                className="peer block w-max lg:w-[70%] border-b dark:border-white border-black bg-transparent px-2.5 pb-2.5 pt-5 text-sm focus:border-black dark:focus:border-white focus:outline-none focus:ring-0"
+                placeholder=" "
+                required
               ></textarea>
               <label
                 htmlFor="message"
@@ -81,6 +179,7 @@ function Ad(props) {
               </div>
             </div>
           </form>
+          {formStatus && <p className="mt-4 text-center">{formStatus}</p>}
         </div>
 
         {/* Services Section */}
@@ -112,7 +211,7 @@ function Ad(props) {
       <div
         className="circle hidden lg:block top-[40%] left-0 z-30"
         style={{
-          background: "linear-gradient(130.35deg, #FC466B33, #3F5EFB33",
+          background: "linear-gradient(130.35deg, #FC466B33, #3F5EFB33)",
         }}
       />
     </div>
