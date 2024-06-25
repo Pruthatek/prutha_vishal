@@ -237,16 +237,16 @@ const FooterLinks = () => {
           </div>
           {/* row 2 */}
           <div className="flex items-center justify-center lg:justify-start gap-5">
-            <div className="">
+            <div className="w-[4%]">
               <a href="https://www.facebook.com/pruthatek" target="_blank">
                 <img
                   src="/img/facebook.svg"
                   alt="Facebook"
-                  className="w-[80%] hover:rotate-180 duration-300"
+                  className="w-full hover:rotate-180 duration-300"
                 />
               </a>
             </div>
-            <div>
+            <div className="w-[4%]">
               <a
                 href="https://api.whatsapp.com/send?phone=919909918930&text=Hey%2C%20Glad%20to%20hear%20from%20you.%20%0ACan%20you%20share%20the%20following%20details%0A-Your%20Full%20Name%0A-Contact%20number%0A-Email%20ID%0A-Your%20Requirement%0A-File%0AOur%20team%20will%20get%20in%20touch%20with%20you."
                 target="_blank"
@@ -255,7 +255,7 @@ const FooterLinks = () => {
                 <img
                   src="/img/whatsapp.svg"
                   alt="wp"
-                  className="w-[45px] hover:rotate-180 duration-300"
+                  className="w-full hover:rotate-180 duration-300"
                 />
               </a>
             </div>
@@ -264,7 +264,7 @@ const FooterLinks = () => {
 								<img src="/img/insta.svg" alt="Instagram" />
 							</a>
 						</div> */}
-            <div className="">
+            <div className="w-[4%]">
               <a
                 href="https://www.linkedin.com/company/pruthatek/"
                 target="_blank"
@@ -272,16 +272,16 @@ const FooterLinks = () => {
                 <img
                   src="/img/linkedin.svg"
                   alt="Linkedin"
-                  className="w-[80%] hover:rotate-180 duration-300"
+                  className="w-full hover:rotate-180 duration-300"
                 />
               </a>
             </div>
-            <div className="">
+            <div className="w-[3%]">
               <a href="https://twitter.com/pruthatek" target="_blank">
                 <img
                   src="/img/twitter.svg"
                   alt="Twitter"
-                  className="w-[80%] hover:rotate-180 duration-300"
+                  className="w-full hover:rotate-180 duration-300"
                 />
               </a>
             </div>
