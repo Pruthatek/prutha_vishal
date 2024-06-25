@@ -17,12 +17,12 @@ const Footer = (props) => {
         <OurOffice theme={props.theme} />
       </div>
       <div className="lg:px-20 px-10">
-        <FooterLinks />
+        <FooterLinks theme={props.theme} />
       </div>
       <div className="flex flex-col lg:flex-row items-start justify-between py-2 px-10 border-t-[0.5px] lg:items-center lg:justify-between gap-y-3">
         <p className="tracking-wider font-[300] text-[12px] lg:text-[16px]">
-          2023 ©All rights Reserved by Prutha Technomarket Pvt. Ltd. & Prutha
-          Technomarket Inc.
+          {new Date().getFullYear()} ©All rights Reserved by Prutha Technomarket
+          Pvt. Ltd. & Prutha Technomarket Inc.
         </p>
         <div className="flex items-center justify-between gap-x-5">
           <p className="tracking-wider font-[400] text-[10px] lg:text-[15px] underline cursor-pointer">

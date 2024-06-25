@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { db } from "../../database/firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 
-const FooterLinks = () => {
+const FooterLinks = (props) => {
   const servicesData = [
     { title: "Digital Marketing", link: "/digitalmarketing" },
     { title: "Digital Strategy and transformation", link: "/underdevelopment" },
@@ -279,7 +279,11 @@ const FooterLinks = () => {
             <div className="w-[3%]">
               <a href="https://twitter.com/pruthatek" target="_blank">
                 <img
-                  src="/img/twitter.svg"
+                  src={
+                    props.theme === "dark"
+                      ? "/img/twitter.svg"
+                      : "/img/twitter-dark.svg"
+                  }
                   alt="Twitter"
                   className="w-full hover:rotate-180 duration-300"
                 />
