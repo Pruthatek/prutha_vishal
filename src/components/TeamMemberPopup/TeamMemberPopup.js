@@ -56,23 +56,23 @@ const TeamMemberPopup = ({ data }) => {
 						) : (
 							<></>
 						)}
-						{data.Experties != "" && data.Experties != null ? (
+						{data.Expertise != "" && data.Expertise != null ? (
 							<p className="flex gap-5 whitespace-nowrap font-bold mt-5 text-subtitle">
-								Experties :{" "}
+								Expertise :{" "}
 								<span className="whitespace-normal text-justify font-normal">
-									{data.Experties.charAt(0).toUpperCase() +
-										data.Experties.slice(1)}
+									{data.Expertise.charAt(0).toUpperCase() +
+										data.Expertise.slice(1)}
 								</span>
 							</p>
 						) : (
 							<></>
 						)}
-						{data.Learninig != "" && data.Learninig != null ? (
+						{data.Learning != "" && data.Learning != null ? (
 							<p className="flex gap-5 whitespace-nowrap font-bold mt-5 text-subtitle">
-								Learninig :{" "}
+								Learning :{" "}
 								<span className="whitespace-normal text-justify font-normal">
-									{data.Learninig.charAt(0).toUpperCase() +
-										data.Learninig.slice(1)}
+									{data.Learning.charAt(0).toUpperCase() +
+										data.Learning.slice(1)}
 								</span>
 							</p>
 						) : (

@@ -9,7 +9,7 @@ export const  ourExpertsData = [
 		experience: "12+ years of experience",
 		Skills:
 			"Creates visually appealing and user-friendly designs for multimedia content collaborates with cross-functional teams to ensure design and functionality align Expertise in Adobe Creative Suite,Figma, HTML, CSS, JavaScript",
-		Experties:
+		Expertise:
 			"UI/Ux Design, Video Editing, Animations, Logo Design, Logo Animations",
 		Learninig: "Flutter, 3D Animations & Modeling,",
 	},
@@ -23,7 +23,7 @@ export const  ourExpertsData = [
 		experience: "3+ years of experience",
 		Skills:
 			"Creates visually appealing and user-friendly designs for multimedia content collaborates with cross-functional teams to ensure design and functionality align Expertise in Adobe Creative Suite,Figma, HTML, CSS, JavaScript",
-		Experties:
+		Expertise:
 			"UI/Ux Design, Video Editing, Animations, Logo Design, Logo Animations",
 		Learninig: "Flutter, 3D Animations & Modeling,",
 	},
@@ -37,7 +37,7 @@ export const  ourExpertsData = [
 		experience: "3+ years of experience",
 		Skills:
 			"Creates visually appealing and user-friendly designs for multimedia content collaborates with cross-functional teams to ensure design and functionality align Expertise in Adobe Creative Suite,Figma, HTML, CSS, JavaScript",
-		Experties:
+		Expertise:
 			"UI/Ux Design, Video Editing, Animations, Logo Design, Logo Animations",
 		Learninig: "Flutter, 3D Animations & Modeling,",
 	},
@@ -51,7 +51,7 @@ export const  ourExpertsData = [
 		experience: "3+ years of experience",
 		Skills:
 			"Creates visually appealing and user-friendly designs for multimedia content collaborates with cross-functional teams to ensure design and functionality align Expertise in Adobe Creative Suite,Figma, HTML, CSS, JavaScript",
-		Experties:
+		Expertise:
 			"UI/Ux Design, Video Editing, Animations, Logo Design, Logo Animations",
 		Learninig: "Flutter, 3D Animations & Modeling,",
 	},

@@ -18,7 +18,7 @@ const OurExperts = (props) => {
 			role: "",
 			experience: "",
 			Skills: "",
-			Experties: "",
+			Expertise: "",
 			Learninig: "",
 		},
 	]);

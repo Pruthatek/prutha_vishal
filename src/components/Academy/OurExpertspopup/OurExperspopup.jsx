@@ -56,12 +56,12 @@ const OurExperspopup = ({ data }) => {
                 ) : (
                     <></>
                 )}
-                {data.Experties != "" && data.Experties != null ? (
+                {data.Expertise != "" && data.Expertise != null ? (
                     <p className="flex gap-5 whitespace-nowrap font-bold mt-5 text-subtitle">
-                        Experties :{" "}
+                        Expertise :{" "}
                         <span className="whitespace-normal text-justify font-normal">
-                            {data.Experties.charAt(0).toUpperCase() +
-                                data.Experties.slice(1)}
+                            {data.Expertise.charAt(0).toUpperCase() +
+                                data.Expertise.slice(1)}
                         </span>
                     </p>
                 ) : (

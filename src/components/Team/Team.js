@@ -21,8 +21,8 @@ const Team = (props) => {
 			role: "",
 			experience: "",
 			Skills: "",
-			Experties: "",
-			Learninig: "",
+			Expertise: "",
+			Learning: "",
 		},
 	]);
 
@@ -51,7 +51,7 @@ const Team = (props) => {
 				<h1 className="font-bold text-title text-center text-[#B3B3B3] dark:text-white mb-3">Leadership</h1>
 				<p className="text-center capitalize text-[#B3B3B3]">Innovative teams driving success since 2019</p>
 				<div className={"flex flex-row flex-wrap justify-center items-center gap-10 gap-y-[6rem] text-center mt-28"}>
-					{teamMembersData.slice(0, 6).map((item, index) => (
+					{teamMembersData.slice(0, 5).map((item, index) => (
 						<TeamMembers item={item} key={index} setdetails={setdetails} theme={props.theme} />
 					))}
 				</div>
@@ -59,7 +59,7 @@ const Team = (props) => {
 			<div className="max-w-screen-lg my-20 mx-auto">
 				<h1 className="font-bold text-title text-center text-[#B3B3B3] dark:text-white mb-3">Branding & Design Experts</h1>
 				<div className="flex flex-row flex-wrap justify-center items-center gap-10 gap-y-[6rem] text-center mt-28">
-					{teamMembersData.slice(6, 7).map((item, index) => (
+					{teamMembersData.slice(5, 7).map((item, index) => (
 						<TeamMembers item={item} key={index} setdetails={setdetails} theme={props.theme} />
 					))}
 				</div>
@@ -67,7 +67,7 @@ const Team = (props) => {
 			<div className="max-w-screen-lg my-20 mx-auto">
 				<h1 className="font-bold text-title text-center text-[#B3B3B3] dark:text-white mb-3">Meet Our Skilled Developers</h1>
 				<div className="flex flex-row flex-wrap justify-center items-center gap-10 gap-y-[6rem] text-center mt-28">
-					{teamMembersData.slice(8).map((item, index) => (
+					{teamMembersData.slice(7).map((item, index) => (
 						<TeamMembers item={item} key={index} setdetails={setdetails} theme={props.theme} />
 					))}
 				</div>
